@@ -1,0 +1,21 @@
+{
+  "name": "clion-dark-perfected",
+  "displayName": "Clion Dark Perfected",
+  "description": "The most faithful Clion Theme for VSCode",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Clion Theme Perfected",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Clion Theme Perfected-color-theme.json"
+      }
+    ]
+  }
+}
