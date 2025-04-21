@@ -9,7 +9,7 @@ This theme aims to bring the feel and look of JetBrains CLion to VS Code. Ideal 
 ## Preview
 
 
-![Screenshot of Clion Dark Perfected in VSCode](screenshot.png)
+![Screenshot](Screenshot.png)
 
 ---
 
