@@ -2,6 +2,8 @@
   "name": "clion-dark-perfected",
   "displayName": "Clion Dark Perfected",
   "description": "The most faithful Clion Theme for VSCode",
+  "icon": "icon.png",
+  "publisher": "ASRepairs",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.99.0"
