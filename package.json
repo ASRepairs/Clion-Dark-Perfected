@@ -3,6 +3,10 @@
   "displayName": "Clion Dark Perfected",
   "description": "The most faithful Clion Theme for VSCode",
   "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ASRepairs/Clion-Dark-Perfected"
+  },
   "publisher": "ASRepairs",
   "version": "0.0.1",
   "engines": {
