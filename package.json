@@ -9,6 +9,14 @@
   },
   "publisher": "ASRepairs",
   "version": "0.0.1",
+  "license": "MIT",
+  "keywords": [
+    "theme",
+    "dark",
+    "clion",
+    "JetBrains",
+    "clion-dark-perfected"
+  ],
   "engines": {
     "vscode": "^1.99.0"
   },
