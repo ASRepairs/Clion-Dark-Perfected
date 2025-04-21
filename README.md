@@ -1,16 +1,40 @@
-# clion-dark-perfected README
+# Clion Dark Perfected
 
-## Working with Markdown
+A faithful recreation of CLion's dark theme, made for Visual Studio Code.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+This theme aims to bring the feel and look of JetBrains CLion to VS Code. Ideal for C/C++, Python, and web.
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+---
 
-## For more information
+## Preview
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
-**Enjoy!**
+![Screenshot of Clion Dark Perfected in VSCode](screenshot.png)
+
+---
+
+## Features
+
+- Inspired by JetBrains CLion’s default dark mode.
+- syntax color mapping for:
+  - C / C++
+  - Python
+  - JavaScript / TypeScript
+  - JSON / HTML / CSS / Markdown
+
+---
+
+## Installation
+
+You can install this theme directly from the VS Code Marketplace
+
+### Via Marketplace
+
+1. Go to the Extensions view (`Ctrl+Shift+X`)
+2. Search for **Clion Dark Perfected**
+3. Click **Install**
+
+### Or use the command line:
+
+```bash
+code --install-extension "the extension"
