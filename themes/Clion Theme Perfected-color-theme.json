@@ -259,16 +259,13 @@
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
 		"method": {
-			"foreground": "#b7babced"
+			"foreground": "#65a4df"
 		},
 		"enumMember": {
 			"foreground": "#C77DBB"
 		},
 		"variable.constant": {
 			"foreground": "#ce8d64"
-		},
-		"variable.defaultLibrary": {
-			"foreground": "#e5c07b"
 		}
 	},
 	"tokenColors": [
@@ -276,6 +273,14 @@
 			"scope": [
 				"source.cpp",
 				"source.c",
+				"source.c++",
+				"sournce.js",
+				"source.ts",
+				"source.tsx",
+				"source.python",
+				"source.json",
+				"source.html",
+				"source.css",
 			],
 			"settings": {
 				"foreground": "#bfb8b8"
@@ -317,6 +322,30 @@
 				"string.quoted.double.c",
 				"string.quoted.single.cpp",
 				"string.quoted.single.c",
+				"string.quoted.double.json",
+				"string.quoted.single.json",
+				"string.quoted.single.js",
+				"string.quoted.double.js",
+				"string.quoted.single.ts",
+				"string.quoted.double.ts",
+				"string.quoted.double.html",
+				"storage.type.string.python",
+				"string.quoted.double.python",
+				"string.quoted.single.python",
+				"string.quoted.docstring.multi.python",
+				"support.constant.color.w3c-standard-color-name.css",
+				"support.constant.color.w3c-extended-color-name.css",
+				"support.constant.property-value.css",
+				"keyword.other.unit.px.css",
+				"keyword.other.unit.percent.css",
+				"keyword.other.unit.rem.css",
+				"keyword.other.unit.em.css",
+				"keyword.other.unit.ex.css",
+				"keyword.other.unit.ch.css",
+				"keyword.other.unit.vw.css",
+				"keyword.other.unit.vh.css",
+				"markup.inline.raw.string.markdown",
+				"markup.fenced_code.block.markdown",
 			],
 			"settings": {
 				"foreground": "#6aab73"
@@ -342,6 +371,11 @@
 				"constant.language.true.c",
 				"constant.language.boolean.cpp",
 				"constant.language.boolean.c",
+				"storage.type.js",
+				"storage.type.ts",
+				"storage.type.tsx",
+				"keyword.control.import.python",
+				"keyword.control.from.python",
 			],
 			"settings": {
 				"foreground": "#c38d6c"
@@ -365,6 +399,26 @@
 				"keyword.other.unit.suffix.integer.c",
 				"constant.numeric.decimal.point.cpp",
 				"constatnt.numeric.decimal.point.c",
+				"constant.numeric.decimal.js",
+				"constant.numeric.integer.js",
+				"constant.numeric.float.js",
+				"constant.numeric.hexadecimal.js",
+				"constant.numeric.octal.js",
+				"constant.numeric.decimal.ts",
+				"constant.numeric.integer.ts",
+				"constant.numeric.float.ts",
+				"constant.numeric.hexadecimal.ts",
+				"constant.numeric.octal.ts",
+				"constant.numeric.dec.python",
+				"constant.numeric.integer.python",
+				"constant.numeric.float.python",
+				"constant.numeric.hexadecimal.python",
+				"constant.numeric.octal.python",
+				"constant.numeric.css",
+				"constant.numeric.color.hex.css",
+				"constant.numeric.color.rgb.css",
+				"constant.numeric.color.rgba.css",
+				"constant.numeric.json",
 			],
 			"settings": {
 				"foreground": "#26c5d3"
@@ -378,6 +432,11 @@
 				"comment.line.double-slash.c.embedded",
 				"comment.line.double-slash.cpp.embedded.block",
 				"comment.line.double-slash.c.embedded.block",
+				"comment.line.double-slash.js",
+				"comment.line.double-slash.ts",
+				"comment.line.double-slash.tsx",
+				"comment.block.html",
+				"comment.block.css",
 			],
 			"settings": {
 				"foreground": "#787d84"
@@ -405,6 +464,8 @@
 				"meta.function.c",
 				"entity.name.function.member.cpp",
 				"entity.name.function.member.c",
+				"entity.name.function.js",
+				"entity.name.function.python",
 			],
 			"settings": {
 				"foreground": "#65a4df"
@@ -443,10 +504,128 @@
 				"keyword.control.default.c",
 				"keyword.control.else-if.cpp",
 				"keyword.control.else-if.c",
+				"keyword.control.conditional.js",
+				"keyword.control.conditional.ts",
+				"keyword.control.conditional.tsx",
+				"constant.language.boolean.false.js",
+				"keyword.control.flow.js",
+				"keyword.control.flow.ts",
+				"keyword.control.flow.tsx",
+				"storage.type.function.js",
+				"storage.modifier.async.js",
+				"storage.modifier.async.ts",
+				"storage.modifier.async.tsx",
+				"keyword.control.trycatch.js",
+				"keyword.control.trycatch.ts",
+				"keyword.control.trycatch.tsx",
+				"keyword.operator.new.js",
+				"keyword.operator.new.ts",
+				"keyword.operator.new.tsx",
+				"keyword.control.loop.js",
+				"keyword.control.loop.ts",
+				"keyword.control.loop.tsx",
+				"constant.language.python",
+				"storage.type.function.python",
+				"keyword.control.flow.python",
+				"constant.character.format.placeholder.other.python",
+				"meta.at-rule.media.header.css",
+				"punctuation.definition.heading.markdown",
+				"punctuation.definition.list.begin.markdown",
+				"punctuation.definition.bold.markdown",
+				"punctuation.definition.markdown",
+				"punctuation.separator.table.markdown",
+				"punctuation.definition.table.markdown",
+				"meta.separator.markdown",
 			],
 			"settings": {
 				"foreground": "#c38d6c"
 			}
 		},
+		{
+			"scope": [
+				"variable.other.property.js",
+				"variable.other.constant.js",
+				"support.class.promise.js",
+				"variable.other.object.js",
+				"variable.other.readwrite.js",
+				"entity.name.section.markdown",
+			],
+			"settings": {
+				"foreground": "#C77DBB"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.tag.html",
+				"entity.other.attribute-name.pseudo-class.css",
+				"entity.other.attribute-name.class.css",
+				"entity.name.tag.css",
+				"support.constant.font-name.css",
+				"support.function.misc.css",
+				"variable.argument.css",
+			],
+			"settings": {
+				"foreground": "#d4b16c"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.tag.end.html",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.section.property-list.end.bracket.curly.css",
+				"punctuation.section.property-list.begin.bracket.curly.css",
+				"punctuation.definition.link.title.begin.markdown",
+				"punctuation.definition.link.title.end.markdown",
+				"punctuation.definition.metadata.markdown",
+			],
+			"settings": {
+				"foreground": "#ffd602"
+			}
+		},
+		{
+			"scope": [
+				"support.type.exception.python",
+				"support.class.exception.python",
+				"support.function.builtin.python",
+			],
+			"settings": {
+				"foreground": "#7f87c5"
+			}
+		},
+		{
+			"scope": [
+				"variable.parameter.function-call.python",
+			],
+			"settings": {
+				"foreground": "#f34646"
+			}
+		},
+		{
+			"scope": [
+				"string.other.link.title.markdown",
+				"markup.underline.link.markdown",
+			],
+			"settings": {
+				"foreground": "#4290de"
+			},
+		},
+		{
+			"scope": [
+				"punctuation.definition.dictionary.begin.json",
+				"punctuation.definition.dictionary.end.json",
+			],
+			"settings": {
+				"foreground": "#ffd602",
+			}
+		},
+		{
+			"scope": [
+				"support.type.property-name.json",
+				"fenced_code.block.language.markdown",
+			],
+			"settings": {
+				"foreground": "#C77DBB",
+			}
+		}
 	]
 }
