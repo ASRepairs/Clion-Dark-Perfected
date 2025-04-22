@@ -485,6 +485,8 @@
 			"scope": [
 				"entity.name.function.call.cpp",
 				"entity.name.function.call.c",
+				"entity.name.function.c",
+				"entity.name.function.cpp",
 				"meta.head.function.definition.cpp",
 				"meta.head.function.definition.c",
 				"meta.function.cpp",
@@ -521,6 +523,8 @@
 				"keyword.control.while.c",
 				"keyword.control.for.cpp",
 				"keyword.control.for.c",
+				"keyword.control.c",
+				"keyword.control.cpp",
 				"keyword.control.switch.cpp",
 				"keyword.control.switch.c",
 				"keyword.control.case.cpp",
