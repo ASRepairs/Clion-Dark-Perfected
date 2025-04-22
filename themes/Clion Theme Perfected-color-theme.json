@@ -266,7 +266,10 @@
 		},
 		"variable.constant": {
 			"foreground": "#ce8d64"
-		}
+		},
+		"comment": {
+			"foreground": "#787d84"
+		},
 	},
 	"tokenColors": [
 		{
@@ -439,6 +442,16 @@
 			"scope": [
 				"comment.line.double-slash.cpp",
 				"comment.line.double-slash.c",
+				"comment.block.c",
+				"comment.block.cpp",
+				"comment.block.documentation.c",
+				"comment.block.documentation.cpp",
+				"comment.block.documentation.js",
+				"comment.block.documentation.ts",
+				"comment.block.documentation.tsx",
+				"comment.block.documentation.python",
+				"comment.block.documentation.css",
+				"comment.block.documentation.html",
 				"comment.line.double-slash.cpp.embedded",
 				"comment.line.double-slash.c.embedded",
 				"comment.line.double-slash.cpp.embedded.block",
