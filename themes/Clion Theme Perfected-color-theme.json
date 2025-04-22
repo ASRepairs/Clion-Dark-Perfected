@@ -297,6 +297,8 @@
 				"meta.preprocessor.include.c",
 				"keyword.control.directive.define.cpp",
 				"keyword.control.directive.define.c",
+				"keyword.control.directive.conditional.c",
+				"keyword.control.directive.conditional.cpp",
 				"meta.preprocessor.macro.c",
 				"meta.preprocessor.macro.cpp",
 			],
