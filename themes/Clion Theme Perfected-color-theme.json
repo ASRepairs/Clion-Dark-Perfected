@@ -502,6 +502,8 @@
 			"scope": [
 				"support.type.built-in.posix-reserved.cpp",
 				"support.type.built-in.posix-reserved.c",
+				"support.type.posix-reserved.c",
+				"support.type.posix-reserved.cpp",
 				"entity.name.type.parameter.cpp",
 				"entity.name.type.parameter.c",
 			],
