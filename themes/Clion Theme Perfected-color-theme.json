@@ -392,6 +392,12 @@
 				"storage.type.tsx",
 				"keyword.control.import.python",
 				"keyword.control.from.python",
+				"storage.type.class.ts",
+				"storage.type.class.tsx",
+				"support.type.primitive.ts",
+				"support.type.primitive.tsx",
+				"support.type.primitive.js",
+				"support.type.primitive.python",
 			],
 			"settings": {
 				"foreground": "#c38d6c"
@@ -548,9 +554,6 @@
 				"constant.language.boolean.true.ts",
 				"constant.language.boolean.false.tsx",
 				"constant.language.boolean.true.tsx",
-				"punctuation.terminator.statement.js",
-				"punctuation.terminator.statement.ts",
-				"punctuation.terminator.statement.tsx",
 				"keyword.control.flow.js",
 				"keyword.control.flow.ts",
 				"keyword.control.flow.tsx",
@@ -679,11 +682,16 @@
 		},
 		{
 			"scope": [
+				"variable.other.readwrite.ts",
+			],
+			"settings": {
+				"foreground": "#a9b7c6",
+			}
+		},
+		{
+			"scope": [
 				"support.type.property-name.json",
 				"fenced_code.block.language.markdown",
-				"variable.other.readwrite.alias.ts",
-				"variable.other.readwrite.alias.tsx",
-				"variable.other.object.property.ts",
 				"variable.other.property.ts",
 			],
 			"settings": {
