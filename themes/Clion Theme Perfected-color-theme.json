@@ -398,6 +398,8 @@
 				"support.type.primitive.tsx",
 				"support.type.primitive.js",
 				"support.type.primitive.python",
+				"storage.type.struct.c",
+				"storage.type.struct.cpp",
 			],
 			"settings": {
 				"foreground": "#c38d6c"
