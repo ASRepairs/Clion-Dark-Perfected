@@ -400,6 +400,8 @@
 				"support.type.primitive.python",
 				"storage.type.struct.c",
 				"storage.type.struct.cpp",
+				"constant.other.placeholder.c",
+				"constant.other.placeholder.cpp",
 			],
 			"settings": {
 				"foreground": "#c38d6c"
