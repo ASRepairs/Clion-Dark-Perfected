@@ -445,6 +445,8 @@
 				"constant.numeric.color.rgb.css",
 				"constant.numeric.color.rgba.css",
 				"constant.numeric.json",
+				"constant.numeric.binary.js",
+				"constant.numeric.binary.ts",
 			],
 			"settings": {
 				"foreground": "#26c5d3"
@@ -549,6 +551,8 @@
 				"keyword.control.default.c",
 				"keyword.control.else-if.cpp",
 				"keyword.control.else-if.c",
+				"storage.modifier.c",
+				"storage.modifier.cpp",
 				"keyword.control.conditional.js",
 				"keyword.control.conditional.ts",
 				"keyword.control.conditional.tsx",
@@ -578,8 +582,10 @@
 				"storage.type.function.tsx",
 				"storage.modifier.ts",
 				"storage.modifier.tsx",
+				"keyword.control.switch.js",
 				"keyword.control.switch.ts",
 				"keyword.control.switch.tsx",
+				"keyword.control.case.js",
 				"keyword.control.case.ts",
 				"keyword.control.case.tsx",
 				"keyword.control.default.ts",
