@@ -478,6 +478,7 @@
 				"comment.block.js",
 				"comment.block.html",
 				"comment.block.css",
+				"comment.line.number-sign.python",
 			],
 			"settings": {
 				"foreground": "#787d84"
@@ -706,6 +707,26 @@
 			],
 			"settings": {
 				"foreground": "#C77DBB",
+			}
+		},
+		{
+			"scope": [
+				"entity.name.function.decorator.python",
+			],
+			"settings": {
+				"foreground": "#b2ad55",
+			}
+		},
+		{
+			"scope": [
+				"comment.line.double-slash.documentation.c",
+				"comment.line.double-slash.documentation.cpp",
+				"comment.line.double-slash.documentation.js",
+				"comment.line.double-slash.documentation.ts",
+				"comment.line.double-slash.documentation.tsx",
+			],
+			"settings": {
+				"foreground": "#5b9271",
 			}
 		}
 	]
