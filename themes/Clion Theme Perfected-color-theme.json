@@ -299,6 +299,13 @@
 				"keyword.control.directive.define.c",
 				"keyword.control.directive.conditional.c",
 				"keyword.control.directive.conditional.cpp",
+				"keyword.control.directive.conditional.ifdef.cpp",
+				"keyword.control.directive.conditional.if.cpp",
+				"keyword.control.directive.else.cpp",
+				"keyword.control.directive.diagnostic.error.cpp",
+				"keyword.control.directive.diagnostic.warning.cpp",
+				"keyword.control.directive.endif.cpp",
+
 				"meta.preprocessor.macro.c",
 				"meta.preprocessor.macro.cpp",
 			],
