@@ -274,23 +274,6 @@
 	"tokenColors": [
 		{
 			"scope": [
-				"source.cpp",
-				"source.c",
-				"source.c++",
-				"sournce.js",
-				"source.ts",
-				"source.tsx",
-				"source.python",
-				"source.json",
-				"source.html",
-				"source.css",
-			],
-			"settings": {
-				"foreground": "#bfb8b8"
-			}
-		},
-		{
-			"scope": [
 				"keyword.control.directive.include.c",
 				"keyword.control.directive.include.cpp",
 				"meta.preprocessor.include.cpp",
@@ -305,9 +288,11 @@
 				"keyword.control.directive.diagnostic.error.cpp",
 				"keyword.control.directive.diagnostic.warning.cpp",
 				"keyword.control.directive.endif.cpp",
-
+				"keyword.control.directive.pragma.cpp",
+				"keyword.control.directive.pragma.c",
 				"meta.preprocessor.macro.c",
 				"meta.preprocessor.macro.cpp",
+				
 			],
 			"settings": {
 				"foreground": "#b2ad55"
@@ -408,7 +393,31 @@
 				"storage.type.struct.c",
 				"storage.type.struct.cpp",
 				"constant.other.placeholder.c",
-				"constant.other.placeholder.cpp"
+				"constant.other.placeholder.cpp",
+				"keyword.other.typedef.cpp",
+				"keyword.other.typedef.c",
+				"storage.type.enum.cpp",
+				"storage.type.enum.c",
+				"entity.other.attribute-name.pragma.preprocessor.cpp",
+				"entity.other.attribute-name.pragma.preprocessor.c",
+				"storage.type.extern.cpp",
+				"storage.type.extern.c",
+				"storage.modifier.specifier.functional.pre-parameters.constexpr.cpp",
+				"storage.modifier.specifier.functional.pre-parameters.constexpr.c",
+				"storage.modifier.static.cpp",
+				"storage.modifier.static.c",
+				"storage.type.class.cpp",
+				"storage.type.class.c",
+				"storage.type.modifier.access.public.cpp",
+				"storage.type.modifier.access.public.c",
+				"storage.type.modifier.access.protected.cpp",
+				"storage.type.modifier.access.protected.c",
+				"storage.type.modifier.access.private.cpp",
+				"storage.type.modifier.access.private.c",
+				"constant.character.escape.cpp",
+				"keyword.operator.cast.static_cast.cpp",
+				"keyword.operator.cast.static_cast.c",
+
 			],
 			"settings": {
 				"foreground": "#c38d6c"
@@ -493,18 +502,6 @@
 		},
 		{
 			"scope": [
-				"meta.body.function.definition.cpp",
-				"meta.body.function.definition.c",
-				"meta.block.cpp",
-				"meta.block.c",
-				"meta.parameter.cpp"
-			],
-			"settings": {
-				"foreground": "#d1d1d1"
-			}
-		},
-		{
-			"scope": [
 				"entity.name.function.call.cpp",
 				"entity.name.function.call.c",
 				"entity.name.function.c",
@@ -530,6 +527,14 @@
 				"support.type.posix-reserved.cpp",
 				"entity.name.type.parameter.cpp",
 				"entity.name.type.parameter.c",
+				"meta.tail.enum.cpp",
+				"meta.tail.enum.c",
+				"entity.name.type.class.cpp",
+				"entity.name.type.class.c",
+				"entity.name.type.cpp",
+				"entity.name.type.c",
+				"entity.name.scope-resolution.cpp",
+				"entity.name.scope-resolution.c",
 			],
 			"settings": {
 				"foreground": "#b5b6e3"
@@ -701,6 +706,8 @@
 		{
 			"scope": [
 				"variable.other.readwrite.ts",
+				"storage.modifier.inline.cpp",
+				"storage.modifier.inline.c",
 			],
 			"settings": {
 				"foreground": "#a9b7c6",
