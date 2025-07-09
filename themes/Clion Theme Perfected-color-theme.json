@@ -429,6 +429,7 @@
 				"entity.name.type.class",
 				"entity.name.type",
 				"entity.name.scope-resolution",
+				"variable.other.object.access"
 			],
 			"settings": {
 				"foreground": "#b5b6e3"
@@ -578,6 +579,7 @@
 				"support.type.property-name.json",
 				"fenced_code.block.language.markdown",
 				"variable.other.property.ts",
+				"variable.other.member",
 			],
 			"settings": {
 				"foreground": "#C77DBB",
